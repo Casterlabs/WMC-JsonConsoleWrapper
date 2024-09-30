@@ -6,14 +6,20 @@
     <RootNamespace>WMC-JsonConsoleWrapper</RootNamespace>
     <ApplicationIcon />
     <StartupObject />
+    <PlatformTarget>AnyCPU</PlatformTarget>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
     <PlatformTarget>x86</PlatformTarget>
+    <DebugType>embedded</DebugType>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>embedded</DebugType>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Dubya.WindowsMediaController" Version="2.1.0" />
+    <PackageReference Include="Dubya.WindowsMediaController" Version="2.5.5" />
   </ItemGroup>
 
 </Project>
