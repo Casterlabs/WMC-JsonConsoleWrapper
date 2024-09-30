@@ -13,7 +13,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Dubya.WindowsMediaController" Version="2.1.0" />
+    <PackageReference Include="Dubya.WindowsMediaController" Version="2.5.5" />
   </ItemGroup>
 
 </Project>
